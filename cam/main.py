@@ -7,7 +7,7 @@ import numpy as np
 import networkx as nx
 
 import sys
-sys.path.append("..")
+sys.path.append(".")
 from gran_dag.plot import plot_adjacency
 from gran_dag.utils.save import dump
 from gran_dag.utils.metrics import edge_errors
